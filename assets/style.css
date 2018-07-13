@@ -1,0 +1,161 @@
+/*________________________general___________________________*/
+body, html {
+    margin:0;
+    color: #fff;
+    font-family: "Oswald", cursive;
+}
+
+/*__________________________landing page____________________________________*/
+
+.landing-page {
+    height:100%;
+    background-image: url(img/bg3.jpg);
+    background-size: cover;
+}
+
+.nav {
+    height:50px;
+    background: rgba(255,255,255,0.2);
+    border-bottom: rgba(37, 255, 212,0.8) solid 3px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:15px;
+    margin:0;
+}
+
+.nav #main-nav ul li {
+    display: inline-block; 
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.intro {
+    height: 84vh;
+    min-height: 500px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro h2{
+    text-align: center;
+    font-size: 120px;
+    font-weight: 900;
+    margin:0;
+    border-bottom: rgba(37, 255, 212,0.8) 3px solid;
+}
+
+.intro h2 span {
+    color: rgba(37, 255, 212,0.8);
+}
+
+.intro p {
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+#button {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#button img {
+    height:100px;
+    width: 100px;
+    margin:0;
+    padding:0;
+    transition: 0.3s;
+}
+
+#button img:hover {
+    padding-bottom: 12px;
+}
+
+
+#main-nav a:hover {
+    color: rgba(255, 123, 37,1);
+}
+
+/*________________________________About me section______________________________*/
+
+
+section#about-me {
+    color: #000;
+}
+
+section#about-me h3{
+    color: #001f3f;
+    text-align: center;
+    font-size:30px;
+    padding: 100px 0 30px 0;
+}
+
+section#about-me .face-lockup {
+    max-width:780px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+}
+
+
+section#about-me .face-img img {
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+}
+
+section#about-me .face-img {
+    order:2;
+}
+section#about-me .icon-pencil {
+    order:0;
+}
+section#about-me .icon-mouse {
+    order:1;
+}
+section#about-me .icon-browser {
+    order:3;
+}
+section#about-me .icon-video {
+    order:4;
+}
+
+
+
+ section#about-me .icon-pencil, section#about-me .icon-mouse, section#about-me .icon-browser, section#about-me .icon-video{
+    margin: auto 20px;
+}
+
+@media (max-width:758px) {
+    section#about-me .face-lockup{
+        display: block;
+        text-align: center;
+    }
+    section#about-me .icon-pencil, section#about-me .icon-mouse, section#about-me .icon-browser, section#about-me .icon-video {
+        display: inline-block;
+        margin-top: 30px;
+    }
+    face-img {
+        display: block;
+        background-position: center center;
+    }
+}
+
+section#about-me .blurb {
+    max-width: 700px;
+    padding: 10px;
+    margin: 50px auto;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+}
