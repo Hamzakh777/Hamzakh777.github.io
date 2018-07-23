@@ -1,13 +1,16 @@
 <!doctype html>
 
-<html>
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
 		<meta name="description" content="web developpement artist design">
-		<link rel="stylesheet" href="/assets/style.css" type="text/css">
+		<link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+		<link rel="stylesheet" href="/assets/css/style2.css" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400" rel="stylesheet">
+		<link rel="stylesheet" href="./assets/css/spinner.css">
 		<title>My Portfolio | welcome</title>
 	</head>
 
@@ -16,13 +19,25 @@
 	  <div class="landing-page">
 	      <div class="nav">
 	          <nav id="main-nav">
-	              <ul>
+                  <input type="checkbox" id="nav" class="hidden">   
+                  <label for="nav" class="nav-btn">
+                      <i></i>
+                      <i></i>
+                      <i></i>
+                  </label>
+                  <div class="logo">
+                      <a href="#">BRAND</a>   
+                  </div>
+                 
+                  <div class="nav-wrapper">
+                      <ul>
 	                  <li><a href="#">HOME</a></li>
-	                  <li><a href="#">ABOUT ME</a></li>
-	                  <li><a href="#">MY SKILLS</a></li>
+	                  <li><a href="#about-me">ABOUT ME</a></li>
+	                  <li><a href="#work">WORK</a></li>
 	                  <li><a href="#">TESTIMONIALS</a></li>
 	                  <li><a href="#">CONTACT ME</a></li>
 	              </ul>
+                  </div>
 	          </nav>
 	      </div>
 	      <div class="intro">
@@ -30,7 +45,7 @@
 	          <p>I design & build beautiful carfted websites.</p>
           </div>
           <div id="button">    
-              <a href="#"><img src="/assets/logos/arrow2.png" alt=""></a>
+              <a href="#about-me"><img src="/assets/logos/arrow2.png" alt=""></a>
 	      </div>
 	  </div>
 	  
@@ -50,10 +65,169 @@
           </div>
          
           <div class="skill-lockup">
+            
+              <div class="skill-unit">
+                  <div class="skill-label">Communication</div>
+                  <div class="skill-icons skill-8">
+                      <span></span><span></span><span></span><span></span><span></span>
+                      <span></span><span></span><span></span><span></span><span></span>
+                  </div>
+              </div>
+                
+               <div class="skill-unit">
+                  <div class="skill-label">Organization</div>
+                  <div class="skill-icons skill-8">
+                      <span></span><span></span><span></span><span></span><span></span>
+                      <span></span><span></span><span></span><span></span><span></span>
+                  </div>
+              </div>
               
+                 <div class="skill-unit">
+                  <div class="skill-label">Learning</div>
+                  <div class="skill-icons skill-9">
+                      <span></span><span></span><span></span><span></span><span></span>
+                      <span></span><span></span><span></span><span></span><span></span>
+                  </div>
+              </div>
+              
+                 <div class="skill-unit">
+                  <div class="skill-label">Teaching</div>
+                  <div class="skill-icons skill-5">
+                      <span></span><span></span><span></span><span></span><span></span>
+                      <span></span><span></span><span></span><span></span><span></span>
+                  </div>
+              </div>
+              
+                 <div class="skill-unit">
+                  <div class="skill-label">Planning</div>
+                  <div class="skill-icons skill-7">
+                      <span></span><span></span><span></span><span></span><span></span>
+                      <span></span><span></span><span></span><span></span><span></span>
+                  </div>
+              </div>
+              
+                 <div class="skill-unit">
+                  <div class="skill-label">Visual Design</div>
+                  <div class="skill-icons skill-8">
+                      <span></span><span></span><span></span><span></span><span></span>
+                      <span></span><span></span><span></span><span></span><span></span>
+                  </div>
+                 </div>
+              
+                 <div class="skill-unit">
+                  <div class="skill-label">UX Design</div>
+                  <div class="skill-icons skill-9">
+                      <span></span><span></span><span></span><span></span><span></span>
+                      <span></span><span></span><span></span><span></span><span></span>
+                  </div>
+              </div>
+              
+                 <div class="skill-unit">
+                  <div class="skill-label">Programming</div>
+                  <div class="skill-icons skill-10">
+                      <span></span><span></span><span></span><span></span><span></span>
+                      <span></span><span></span><span></span><span></span><span></span>
+                  </div>
+              </div>  
           </div>
         
 	  </section>
-    
+	  
+	  <section id="work"class='dark-bg work-section'>
+	      <h3 id="Work">Work</h3>  
+	      <div class="work-belt">
+             <div class="thumb-wrap">
+                 <div class="thumb-container">
+
+                  <a class="thumb-unit th1" data-folder="project-1">
+
+                      <div class="thumb-overlay">
+                          <strong>My Portfolio</strong>
+                          <img src="assets/icons/zoom-in.png" alt="zoom icon">
+                      </div>
+
+                  </a>
+
+                  <a  class="thumb-unit th2" data-folder="project-2">
+
+                      <div class="thumb-overlay">
+                          <strong>Photography Website </strong>
+                          <img src="assets/icons/zoom-in.png" alt="zoom icon">
+                      </div>
+
+                  </a>
+
+                  <a  class="thumb-unit th3" data-folder="project-3">
+
+                      <div class="thumb-overlay">
+                          <strong>Simple Design</strong>
+                          <img src="assets/icons/zoom-in.png" alt="zoom icon">
+                      </div>
+
+                  </a>
+
+                  <a  class="thumb-unit th4" data-folder="project-4">
+
+                      <div class="thumb-overlay">
+                          <strong>This is cool</strong>
+                          <img src="assets/icons/zoom-in.png" alt="zoom icon">
+                      </div>
+
+                  </a>
+
+                  <a  class="thumb-unit th5" data-folder="project-5">
+
+                      <div class="thumb-overlay">
+                          <strong>This is cool</strong>
+                          <img src="assets/icons/zoom-in.png" alt="zoom icon">
+                      </div>
+
+                  </a>
+
+                  <a  class="thumb-unit th6" data-folder="project-6">
+
+                      <div class="thumb-overlay">
+                          <strong>This is cool</strong>
+                          <img src="assets/icons/zoom-in.png" alt="zoom icon">
+                      </div>
+
+                  </a>
+
+                  <a  class="thumb-unit th7" data-folder="project-7">
+
+                      <div class="thumb-overlay">
+                          <strong>This is cool</strong>
+                          <img src="assets/icons/zoom-in.png" alt="zoom icon">
+                      </div>
+
+                  </a>
+
+                  <a  class="thumb-unit th8" data-folder="project-8">
+
+                      <div class="thumb-overlay">
+                          <strong>This is cool</strong>
+                          <img src="assets/icons/zoom-in.png" alt="zoom icon">
+                      </div>
+
+                  </a>
+             </div>
+             </div>
+             <div class="work-wrap">
+                 <div class="work-container">
+                  <div class="item-wrap">
+                       <div class="work-return">
+                           <img src="./assets/icons/left-arrow.png" alt="back-arrow" id="return">
+                       </div>
+                       <h4 class="project-title"></h4>
+                     </div>
+                     <div class="work-load"></div> 
+               </div> 
+	         </div>
+          </div>     
+	  </section>
+	  
+	  
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
 	</body>
 </html>

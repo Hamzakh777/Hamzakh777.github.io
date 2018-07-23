@@ -1,0 +1,68 @@
+/*-----------work-section and what happens when you click a thumb-------*/
+
+
+.work-section {
+    overflow-x: hidden;
+}
+
+
+.work-belt {
+    width: 200%;
+    position: relative;
+    left: 0%;
+    transition: 0.5s all ease-in-out;
+}
+
+.thumb-wrap, .work-wrap {
+    float: left;
+    width: 50%;
+}
+
+.work-container {
+    max-width:700px;
+    margin: 0 auto;
+    display:none;
+}
+
+.work-container img {
+    max-width:100%;
+}
+
+.work-container #return{
+    margin: 0;
+    height:60px;
+    width:60px;
+    cursor: pointer;
+    opacity: 0.3;
+    transition: 0.3s ease-in-out;
+}
+
+.work-container #return:hover {
+    opacity: 0.6;
+}
+
+
+.work-container h4 {
+    margin:15px 30px;
+    color: #FF7B25;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.work-container .item-wrap {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
